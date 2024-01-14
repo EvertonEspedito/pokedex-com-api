@@ -5,6 +5,7 @@
 
 **Como sou um grande fã de pokemon, resolvi fazer um projeto para testar as minhas habilidades com a programação.**
 
+**[Visitar Site](https://pokedexeess.netlify.app/)**
 
 ## Nesse projeto eu ultilizei :
 
