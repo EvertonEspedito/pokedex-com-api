@@ -1,0 +1,132 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #313131;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    padding: 1rem 2rem;
+    background-color: #313131;
+}
+
+header.rolagem{
+    background-color: rgba(49, 49, 49,0.9);
+    position: fixed;
+    height: 9vh;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+header img{
+    height: 3rem;
+}
+
+header #menumob{
+    width: 3rem;
+    height: 3rem;
+    float: right;
+    background-image: url(../imgs/menuhamb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+div#mob-wraper{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none;
+}
+
+div#mob-wraper ul{
+    align-items: center;
+    padding: 0 1rem;
+}
+
+div#mob-wraper li{
+    list-style: none;
+    padding: 1rem;
+    border: 1px solid yellow;
+    text-align: center;
+    width: 100%;
+    background-color: #8b8b8b;
+}
+
+div#mob-wraper li a{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    
+}
+
+.content h1{
+    color: white;
+    text-align: center;
+}
+
+section#sobre{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    background-color: #616161;
+    border-radius: 0 1rem 0 1rem;
+    border: 1px solid yellow;
+}
+
+footer{
+    padding: 20px 3%;
+    margin: 1rem;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header.rolagem{
+        background-color: rgba(49, 49, 49,0.9);
+        position: fixed;
+        height: 11vh;
+        transition: 0.4s;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    header.rolagem{
+        background-color: rgba(49, 49, 49,0.9);
+        position: fixed;
+        height: 10vh;
+        transition: 0.4s;
+        z-index: 1;
+        top: 0;
+    }
+}
+
